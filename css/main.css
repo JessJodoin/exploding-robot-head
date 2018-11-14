@@ -30,6 +30,7 @@ body {
   width: 320px;
 
   position: relative;
+  vertical-align: bottom;
 }
 
 .robot-brain {
@@ -46,14 +47,32 @@ body {
   width: 125px;
 
   position: absolute;
-  top: 2%;
+  top: 2.2%;
   z-index: 1000;
 }
 
 .robot-head-right {
-  left: 5%;
+  left: 50%;
 }
 
 .robot-head-left {
-  right: 5%;
+  right: 50%;
+}
+
+.robot:hover {
+  background-color: #2b3851;
+}
+
+.robot:hover .robot-brain {
+  top: 4.5%;
+}
+
+.robot:hover .robot-head-right {
+  top: 1%;
+  right: 63.5%;
+}
+
+.robot:hover .robot-head-left {
+  top: 1%;
+  left: 36.5%;
 }
