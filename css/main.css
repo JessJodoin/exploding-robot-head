@@ -50,8 +50,6 @@ body {
   position: absolute;
   top: 20px;
   z-index: 1000;
-
-  display: inline-block;
 }
 
 .robot-head-right {
