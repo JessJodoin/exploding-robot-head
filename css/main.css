@@ -17,12 +17,12 @@ body {
   background-color: #2b3851;
 
   width: 100%;
-  padding-top: 3.5rem;
 }
 
 .robot {
   width: 320px;
 
+  height: 240px;
   margin: 0 auto;
   position: relative;
 }
